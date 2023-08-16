@@ -5,3 +5,5 @@ PERSONS=("Ramesh" "Suresh" "Sachin")
 # inside array we always refer values with index and it starts from 0
 
 echo "First Person: ${PERSONS[0]}"
+
+echo "First Person: ${PERSONS[@]}"
