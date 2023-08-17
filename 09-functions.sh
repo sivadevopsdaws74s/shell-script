@@ -37,6 +37,6 @@ yum install mysql -y &>>$LOGFILE
 
 VALIDATE $? "Installing MySQL"
 
-yum install postfix -y &>>$LOGFILE
+yum install posddtfix -y &>>$LOGFILE
 
 VALIDATE $? "Installing postfix"
